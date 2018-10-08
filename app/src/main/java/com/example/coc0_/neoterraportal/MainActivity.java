@@ -1,5 +1,6 @@
 package com.example.coc0_.neoterraportal;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,13 +17,34 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-
+// This is the character class. Characters that the user creates
+// are held in a Character object.
 class Character {
 
     //Constructor
 
     public Character()
     {
+        this.charactername = "";
+        this.profession = "";
+        this.appearance = "";
+        this.race = "";
+        this.agility = 4;
+        this.smarts = 4;
+        this.strength = 4;
+        this.spirit = 4;
+        this.vigor = 4;
+        this.charisma = 0;
+        this.parry = 0;
+        this.toughness = 0;
+        this.pace = 0;
+        String[] dummy = {""};
+        setSkills(dummy);
+        setEdges(dummy);
+        setHindrances(dummy);
+        setWeapons(dummy);
+        setArmor("");
+        setEquipment(dummy);
         this.creationpoints = 5;
     }
 
@@ -345,6 +367,9 @@ class Character {
 
 public class MainActivity extends AppCompatActivity {
 
+    List<Character> characters;
+
+    //CSVassist controls the loading and saving of characters to and from a CSV file.
     public class CSVassist
     {
         InputStream input;
@@ -392,6 +417,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    // loadcharacters returns a character made up from the data of the CSV file.
     public Character loadCharacter(String[] data) {
         Character temp = new Character();
         temp.setCharactername(data[0]);
@@ -430,6 +456,7 @@ public class MainActivity extends AppCompatActivity {
         return temp;
     }
 
+    //saveCharacter takes the character data and saves it to a string.
     public String[] saveCharacter(Character temp)
     {
         String skill = "";
@@ -511,7 +538,7 @@ public class MainActivity extends AppCompatActivity {
 
         InputStream input = getResources().openRawResource(R.raw.characters);
         CSVassist csv = new CSVassist(input);
-        List<Character> characters = csv.load();
+        characters = csv.load();
         String names = "";
         for (int i = 0; i < characters.size(); i++) {
             names = names + characters.get(i).getCharactername() + ",";
@@ -532,5 +559,38 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    public void onClick(View view)
+    {
+        Intent intent = new Intent(MainActivity.this, CreateACharacter.class);
+        startActivityForResult(intent, 1);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data)
+    {
+        if (requestCode == 1)
+        {
+            if(resultCode == Activity.RESULT_OK)
+            {
+                Character temp = new Character();
+                temp.setCharactername(data.getStringExtra("name"));
+                temp.setRace(data.getStringExtra("race"));
+                temp.setProfession(data.getStringExtra("profession"));
+                temp.setAppearance(data.getStringExtra("appearance"));
+
+                characters.add(temp);
+
+                String names = "";
+                for (int i = 0; i < characters.size(); i++) {
+                    names = names + characters.get(i).getCharactername() + ",";
+                }
+                String[] newdata = names.split(",");
+
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, newdata);
+                listView.setAdapter(adapter);
+            }
+        }
     }
 }

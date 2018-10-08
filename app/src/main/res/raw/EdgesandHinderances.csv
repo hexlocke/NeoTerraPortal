@@ -1,0 +1,541 @@
+Edge,rank,prerequisites,description,numerical effect,
+Alertness,Background,,Bonus to Notice Rolls,Notice +2,
+Ambidextrous,Background,,Off hand penalty ignored,,
+Arcane Background (Bardic Magic),Background,,"Arcane Skill: Persuasion (Spirit)
+  Starting Power Points: 10
+  Starting Powers: 2
+  You've learned how to channel your music into magic, using Persuasion as your arcane skill (note that Charisma is not added to Persuasion when used for casting spells). You use the Arcane Spell Failure rule when using medium or heavy armour, or large shields (i.e., if the penalty is 1 then you ignore it, but if it's 2 or 3 then it applies in full). Your spells should generally have a sound-based trapping, and unlike sorcerers and wizards you can even learn healing magic (but not Greater Healing).
+",PP +10;Powers +2;Persuasion(Spirit),
+Arcane Background (Magic),Background,,"Arcane Skill: Spellcasting (Smarts)
+Starting Power Points: 10
+Starting Powers: 3
+Magicians range from powerful wizards to vile cultists. They
+draw on raw supernatural energy to fuel their eldritch fires.
+This energy often infuses the worlds in which they live, and
+is drawn forth with elaborate rituals, words of power, runes,
+or perhaps even dark sacrifices.
+Wizards are often quite weak early in their careers, but are
+forces to be reckoned with as they become powerful sorcerers. Backlash: When a wizard rolls a 1 on his Spellcasting die
+(regardless of his Wild Die), he is automatically Shaken. This
+can cause a wound.",PP +10;Powers +3;Spellcasting(Smarts),
+Arcane Background (Miracles),Background,,"Arcane Skill: Faith (Spirit)
+Starting Power Points: 10
+Starting Powers: 2
+Those who draw on miracles are priestly types or holy
+champions. Their power comes from a divine presence of
+some sort, including gods, nature, or spirits. Their powers are
+usually invoked with a few words of prayer or by performing
+established rituals.Protector: Those who cast miracles are champions of their
+particular religions. Good priests vow to protect the innocent,
+fight evil, and obey all other tenets of their particular religion.
+Evil priests typically vow to defeat those who oppose their
+religion, or simply to cause as much misery and strife as
+possible. The player and Game Master should come up with
+a simple list of what is important to the character’s religion
+and use this as a guide.",Faith(Spirit);PP +10;Powers +2,
+Arcane Background (Psionics),Background,,"Arcane Skill: Psionics (Smarts)
+Starting Power Points: 10
+Starting Powers: 3
+Psionicists have discovered how to tap into their own psychic
+powers. They can manipulate matter, create fire, or control
+their own bodies with but a thought.
+Brainburn: When a psionic character rolls a 1 on his
+Psionics die (regardless of his Wild Die), he is automatically
+Shaken. On a critical failure, the psi lets out a psychic scream
+that causes him to be Shaken along with all allies in a Large
+Burst Template who fail a Spirit roll. This can cause a wound.",Psionics(Smarts);PP +10;Powers +3,
+Arcane Background (Weird Science),Background,,"Arcane Skill: Weird Science (Smarts—see below)
+Starting Power Points: 10 (but see below)
+Starting Powers: 1
+Weird Science is the creation of strange and powerful
+devices. It differs from regular science in that some element of
+the arcane is involved. Maybe it’s just generic “super-science,”
+or perhaps it’s divinely (or demonically) inspired. Maybe the
+science itself is relatively sound, but it derives power from an
+arcane source, such as ghost rock in Deadlands, or some
+other magical mineral or essence in a steampunk fantasy
+game.
+Weird Science is different in that each new power is actually a new “gizmo.” The player must write down exactly what
+the device is when he gains the power. An inventor with the
+invisibility power, for instance, actually has an invisibility
+belt, cloak, etc. Players are encouraged to give their devices
+pseudo-scientific names as well (“Dr. Zee’s Chromatic
+Disfibulating Device!”).
+Weird Science is the skill an inventor uses when activating
+most devices, and raises increase the effects of the power
+as usual. If a device uses a different skill, such as Driving,
+Fighting, or Shooting, the inventor uses that instead. A ray
+gun, for example, uses the Shooting skill, while a “vibroknife”
+(a knife with the smite power) uses Fighting.
+Powers that require an opposed roll, such as puppet, also
+use the scientist’s Weird Science skill.
+Each device comes with its own Power Points equal to the
+inventor’s Power Points. An inventor with the bolt power and
+10 Power Points, for example, could make a ray gun that fires
+electrical beams. The gun has 10 Power Points it can use
+to fire the beams just like a wizard would cast the bolt spell.
+Malfunction: Weird science devices are never perfect
+technology. They often suffer from spectacular and deadly
+malfunctions. If a gadgeteer uses a device and rolls a 1 on
+the skill die used to activate the gizmo, it has malfunctioned
+in some way and does not work. Draw a card and consult the
+Malfunction Table below:",Weird Science(Smarts);PP +10;Powers +1,
+Arcane Resistance,Background,Spirit d8,Magic is less effective against you.  Adds +2 to armor when hit by damage causing arcane powers. +2 to Trait rolls when reisting powers.,,
+Arcane Resistance (Improved),Background,Arcane Resistance,Magic is greatly less effective against you.  Adds +4 to armor when hit by damage causing arcane powers. +4 to Trait rolls when reisting powers.,,
+Attractive,Background,Vigor d6,It's no secret that beautiful people have an easier time getting their way in life. This edge grants you +2 Charisma.,Charisma +2,
+Attractive (Very),Background,Attractive,Your hero is drop-dead gorgeous. Your Charisma increases to +4,,
+Berserk,Background,,"Immediately after suffering a wound (including a Shaken
+result from physical damage), your hero must make a Smarts
+roll or go Berserk.
+While Berserk, his Parry is reduced by 2 but he adds +2 to all
+Fighting, Strength, melee damage rolls, and Toughness. The
+warrior ignores all wound modifiers while Berserk, but cannot
+use any skills, Edges, or maneuvers that require concentration,
+including Shooting and Taunt, but not Intimidation.
+Berserkers attack with reckless abandon. Anytime his
+Fighting die is a 1 (regardless of his Wild Die), he hits a random
+adjacent target (not the original target). The attack may hit
+friend as well as foe. If there are no other adjacent targets,
+the blow simply misses.
+The Berserker may end his rage by doing nothing (not even
+moving) for one full action and making a Smarts roll at –2.",,
+Brave,Background,Spirit d6,"Those with this Edge have learned to master their fear. Or
+perhaps are so jaded or emotionally distant they’ve just lost
+their normal “fight or flight” responses. Either way, your hero
+adds +2 to Fear tests.",,
+Brawny,Background,Strength d6;Vigor d6,Your bulk or fitness resists damage more than most. Add +1 to Toughness. You can also carry 8 times your strength in pounds without penalty (normal is 5 times).,,
+Combat Insight,Background,Smarts d8;Spirit d6,"You gain a +2 bonus when making Smarts tricks, and a +1 bonus to Fighting rolls against any opponent you've successfully used a Smarts trick against during the current scene.",,
+Fast Healer,Background,Vigor d8,Some individuals just heal faster than others. Those with this blessing add +2 to Vigor rolls when checking for natural healing.,,
+Fleet-Footed,Background,Vigor d8,The Hero's Pace is increased by +2 and you roll a d10 instead of a d6 when running.,Pace +2,
+Luck,Background,,"Your adventurer is blessed by Karma, fate, the gods, or whatever external forces you believe in (or believe in you)! You gain a benny at the start of each game which may be spent on XP but can't be used to advance your character.",,
+Luck (Great),Background,,You gain 2 bennies at the beginning of each session instead of 1.,,
+Noble,Background,,"Those born of noble blood have many perks in life, but often
+have just as many responsibilities. Nobles have high status
+in their societies, are entitled to special treatment from their
+foes and gain +2 Charisma. This
+gives the hero several Edges for the price of one, but the
+responsibilities more than offset the additional perks. Nobles
+often have troops under their control, as well as land, a family
+home, and other assets. All of this must be determined by the
+GM, and balanced by the grave responsibilities the character
+faces.
+",Charisma +2,
+Quick,Background,Agility d8,"Quick characters have lightning-fast reflexes and a cool
+head. Whenever you are dealt a 5 or lower in combat, you
+may discard and draw again until you get a card higher than 5.
+Characters with both the Level Headed and Quick Edges
+draw their additional card and take the best as usual. If that
+card is a Five or less, the Quick Edge may be used to draw
+a replacement until it’s Six or higher.",,
+Rich,Background,,"Whether the individual was born with a silver spoon in his
+mouth or earned it through hard work, he’s got more money
+than most. Rich heroes start with three times the normal
+starting funds for the setting. If a regular income is appropriate
+for this setting, the hero receives the modern day equivalent
+of a $150,000 annual salary",,
+Block,Combat,Seasoned;Fighting d8,"Warriors engaging in hand to hand combat are farm more skilled in personal defense than most others. They've learned not only how to attack, but how to block their opponent's blows as well. Add +1 to your Parry.",Parry +1,
+Block (Improved),Combat,Veteran;Block,You add +2 to your Parry instead of +1.,Parry +2,
+Brawler,Combat,Strength d8,"Frequent fights with bare hands have given this thug a powerful punch. When he hits a foe with a successful bare-handed Fighting roll, he adds +2 to his damage.",,
+Bruiser,Combat,Seasoned;Brawler,"When the bruiser gets a raise on his bare-handed Fighting attack, he rolls a d8 instead of a d6.",,
+Combat Reflexes,Combat,Seasoned,Your adventurer recovers quickly from shock and trauma. He adds +2 to his Spirit roll when attempting to recover from being Shaken.,,
+Counterattack,Combat,Seasoned;Fighting d8,"Fighters with this Edge know how to respond instantly to an
+enemy’s mistakes. Once per round, the character receives
+one free Fighting attack against one adjacent foe who failed
+a Fighting attack against him. This attack is made at –2, and
+the Counterattack must be a normal attack (no Disarm, Wild
+Attack, or other maneuvers), and may not be combined with
+Frenzy or Sweep. It may be used with the Defend maneuver,
+but not Full Defense.",,
+Counterattack (Improved),Combat,Veteran;Counterattack,"ighters with this Edge know how to respond instantly to an
+enemy’s mistakes. Once per round, the character receives
+one free Fighting attack against one adjacent foe who failed
+a Fighting attack against him. The Counterattack must be a normal attack (no Disarm, Wild
+Attack, or other maneuvers), and may not be combined with
+Frenzy or Sweep. It may be used with the Defend maneuver,
+but not Full Defense. (The improved version removes the -2 penalty on the attack.)",,
+Dodge,Combat,Seasoned;Agility d8,"Some crafty types know how to get out of harm’s way. This
+Edge allows them to use cover, movement, and concealment
+to make them harder to hit. Unless they are the victim of a
+surprise attack and taken completely unaware, attackers
+must subtract 1 from their Shooting or Throwing rolls when
+targeting them.
+Characters who attempt to evade area effect attacks may
+add +1 to their Agility roll as well (when allowed).",,
+Dodge (Improved),Combat,Veteran;Dodge,As dodge but attackers subtract 2 from their attack rolls and the character adds +2 to evade area of effect weapons.,,
+Elan,Combat,Spirit d8,"When this spirited hero puts his heart into something, it tends to pay off in big ways. When you spend XP on a trait roll (Including soak rolls), add +2 to the final total.",,
+Extraction,Combat,Agility d8,"When a character normally withdraws from a melee,
+his attacker gets a free attack before he does so—a very
+dangerous proposition for most. Your hero is adept at retreating
+from an engagement.
+Make an Agility roll. If successful, one opponent doesn’t get
+a free attack anytime you disengage.",,
+Extraction (Improved),Combat,Extraction,As Extraction but if you succeed with a raise all opponents currently in melee with the character lose their free attack as your warrior withdraws.,,
+First Strike,Combat,Agility d8,"Once per turn the hero (if not Shaken) gets a free Fighting
+attack against a single foe who moves adjacent to him. This
+automatically interrupts the opponent’s action and does not
+cost the hero his action if he is on Hold or has not yet acted
+this round.",,
+First Strike (Improved),Combat,Heroic;First Strike,As First Strike but the hero may make one free attack against each and every foe who moves adjacent to him.,,
+Florentine,Combat,Agility d8;Fighting d8,"A character trained to fight “Florentine” is a master at
+wielding two weapons at once. He adds +1 to his Fighting
+rolls versus an opponent with a single weapon and no shield.
+In addition, opponents subtract 1 from any “gang up” bonuses
+they would normally get against the fighter as his two flashing
+blades parry their blows.",,
+Frenzy,Combat,Seasoned;Fighting d10,"Frenzied fighters make fast and furious melee attacks,
+sacrificing finesse for raw speed. This allows them to make an
+extra Fighting attack per round at a –2 penalty to all Fighting
+rolls. This attack must be taken at the same time as another
+Fighting attack though it may target any two foes adjacent to
+the hero (Wild Cards roll two Fighting dice and one Wild Die).
+The –2 penalty is subtracted from all attacks.
+A character armed with two weapons still only makes one
+extra attack.",,
+Frenzy (Improved),Combat,Veteran;Frenzy,As Frenzy but the player ignores the -2 frenzy penalty.,,
+Giant Killer,Combat,Veteran;,"The bigger they are, the harder they are to kill. At least for
+most. But your hero knows how to find the weak points in
+massive creatures.
+Your hero does +1d6 damage when attacking creatures
+three sizes or more larger than himself. An ogre (Size +3)
+with this ability, for example, gains the bonus only against
+creatures of Size +6 or greater. A human Giant Killer (Size 0),
+can claim the bonus against the ogre, however.",,
+Hard to Kill,Combat,Spirit d8,"This adventurer has more lives than a truckload of cats.
+When forced to make Vigor rolls due to Incapacitation, he may
+ignore his wound modifiers. This only applies to Vigor rolls
+called for to resist Incapacitation or death (see page 68). He
+still suffers from wound modifiers for other Trait rolls normally.",,
+Hard to Kill (Improved),Combat,Veteran;Hard to Kill,"Your character is harder to kill than the legendary Zhova. If he is ever
+“killed,” roll a die. On an odd result, he’s dead as usual.
+On an even roll, he’s Incapacitated but somehow escapes
+death. He may be captured, stripped of all his belongings,
+or mistakenly left for dead, but he somehow survives.",,
+Improvisational Fighter,Combat,Seasoned;Smarts d6,"Heroes often find themselves fighting with pieces of
+equipment or furnishings not designed for combat. A
+character with this Edge has a knack for using such
+improvised weapons, and does not suffer the usual –1
+penalty to attack and Parry when wielding them.",,
+Killer Instinct,Combat,Heroic,"This hero hates losing. If he ties on an opposed roll of any
+sort, he wins. In addition, if his skill die on an opposed skill
+roll is a 1, he can reroll it (but must keep the second result,
+even if it’s another 1).",,
+Level Headed,Combat,Seasoned;Smarts d8,Fighters who can keep their cool when everyone else is running for cover are deadly customers in combat. A hero with this edge draws an additional action card in combat and acts on the best draw.,,
+Level Headed (Improved),Combat,"Seasoned, Level Headed",As Level Headed but the hero draws 3 cards.,,
+Martial Artist,Combat,Fighting d6,"This character is highly trained in hand-to-hand fighting.
+He is never considered unarmed in combat and so is never
+subject to the Unarmed Defender rule. With a
+successful unarmed attack, he adds +d4 to his Strength roll
+(as if he were using a small weapon).",,
+Martial Artist (Improved),Combat,Veteran;Martial Arts;Fighting d10,The character now adds +d6 to their bare-handed damage.,,
+Nerves of Steel,Combat,Vigor d6,Your hero has learned to fight on through the most intense pain. She may ignore 1 point of wound penalties.,,
+Nerves of Steel (Improved),Combat,Nerves of Steel,Your hero ignores 2 points of wound penalties.,,
+No Mercy,Combat,Seasoned,"The character may spend an XP to reroll any one damage roll, including those made for area effect attacks.",,
+Quick Draw,Combat,Agility d8,"This edge allows a hero to draw a weapon as a free action and ignore the usual -2 multi action penalty if she would choose to take any other action. If a character must roll to draw the weapon, she adds +2 to the roll.",,
+Rock and Roll!,Combat,Seasoned;Shooting d8,"Some Veteran shooters learn to compensate for the recoil of fully automatic weapons. If a character with this Edge does not move, he may ignore the recoil penalty for firing a weapon on full auto.",,
+Steady Hands,Combat,Agility d8,"Your hero ignores the ""unstable platform"" penalty for firing from the backs of animals or while riding in moving vehicles. In addition, when performing actions while running, his penalty is -1 instead of -2.",,
+Sweep,Combat,Agility d8,"Sweep allows a character to make a single Fighting attack
+and apply it against all currently adjacent targets at a –2
+penalty (friends and foes alike—be careful). Resolve each
+damage roll separately. The attack is applied immediately
+when rolled and only affects targets adjacent at that time.
+A character may not use Sweep in the same round she
+uses Frenzy, nor may she Sweep more than once per round,
+or with a second weapon held in another hand. In effect, the
+hero may only perform Sweep once per action unless she
+somehow gets two entire actions (perhaps under the effects
+of a spell or power, for example).",,
+Sweep (Improved),Combat,"Veteran, Sweep",As sweep but you may ignore the -2 penalty.,,
+Trademark Weapon,Combat,Fighting d10 or Shooting d10,"The hero knows one unique weapon (Excalibur, Old Betsy,
+Sting) like the back of his hand. When using that weapon, he
+adds +1 to his Fighting, Shooting, or Throwing rolls. A hero can take this Edge multiple times, applying it to a different
+weapon each time. If a Trademark Weapon is lost, the hero
+can replace it, but the benefit of the Edge doesn’t kick in for
+two game weeks.
+",,
+Trademark Weapon (Improved),Combat,Veteran;Trademark Weapon,As Trademark Weapon but the bonus when using the weapon increases to +2.,,
+Two-Fisted,Combat,Agility d8,"A Two-Fisted hero isn’t ambidextrous—he’s simply learned to
+fight with two weapons (or both fists) at once. When attacking
+with a weapon in each hand, he rolls each attack separately
+but ignores the multi-action penalty (see page 66).",,
+Command,Leadership,Smarts d6,"Command is the ability to give clear instructions to
+surrounding allies and enforce your hero’s will upon them.
+This makes your character’s compatriots more willing to fight
+on despite their wounds, and so adds +1 to their Spirit rolls
+to recover from being Shaken.",,
+Command Presense,Leadership,Command,"A booming voice, effective commands, natural charisma,
+or simple training results in a much more effective combat
+element. At the center of that element is the officer in
+command. A hero with this Edge has a “command radius” of
+10” instead of the usual 5”.",,
+Fervor,Leadership,Command;Spirit d6,"A simple phrase uttered by a great leader can sometimes
+have momentous results. A leader with this ability can inspire
+his men to bloody fervor by yelling a motto, slogan, or other
+inspirational words. Those in the command radius add +1 to
+their Fighting damage rolls.",,
+Hold the Line!,Leadership,Seasoned;Command;Smarts d8,"This Edge strengthens the will of the men under the hero’s
+command. The troops add +1 to their Toughness.",,
+Inspire,Leadership,Seasoned;Command,"Leaders with exceptional reputations and experience in
+battle inspire the soldiers around them. They add +2 to Spirit
+rolls when recovering from being Shaken (this includes the
+original +1 bonus for the Command Edge).",,
+Leader of Men,Leadership,Veteran;Command,"Allies under the leader’s command roll a d10 as the Wild
+Die instead of a d6 when making group rolls.",,
+Natural Leader,Leadership,Command;Spirit d8,"This Edge signifies a special link between a leader and his
+men. With it, he may share his XP with any troops under
+his command.",,
+Tactician,Leadership,Seasoned;Command;Smarts d8;Knowledge(Battle) d6,"The leader has a natural grasp of small unit tactics and can
+frequently take advantage of a rapidly changing situation.
+At the beginning of a fight and before any Action Cards are
+dealt, the hero makes a Knowledge (Battle) roll. For each
+success and raise he receives one Action Card. These are
+kept separate from his regular Action Cards and are not placed
+back into the deck until used or the combat ends (including
+Jokers!). At the start of any round, the hero may give one or
+more of these extra cards to his allies, whether Extras or Wild
+Cards, who then use it as their Action Card for the round in
+place of the one dealt them. This allows Extras to operate
+independently of Wild Card characters for one round if they
+receive their own card.
+Only one character per encounter may use this Edge.",,
+New Power,Power,Arcane Background,You select a new power to cast.,,
+Power Points,Power,Arcane Background,Gain an additional 5 power points.,PP 5,PP +5
+Rapid Recharge,Power,Seasoned;Spirit d6;Arcane Background,This edge allows an arcane character to regain 1 power point every 30 minutes.,,
+Rapid Recharge (Improved),Power,Veteran;Rapid Recharge,This character gains 1 power point every 15 minutes.,,
+Soul Drain,Power,Seasoned;Arcane Background;Knowledge (Arcana) d10,"Spellcasters, mentalists, and other arcane types in dire need
+of Power Points may use this Edge to drain energy from their
+own souls. To use this dangerous ability, the arcane character
+first decides how many Power Points he wants to draw from
+himself. Then he makes a Spirit roll minus the number of points
+he’s trying to drain. (This is a free action.) On a Spirit total of
+1 or less, the character suffers a wound and falls unconscious
+for 1d6 hours. On a failure, the character suffers a wound. On
+a success or better, the character gets the points he needed
+and may attempt to cast a spell with them immediately (they
+may not be saved).",,
+Ace,Professional,Agility d8,"Aces are special pilots and drivers who feel more
+comfortable behind the wheel, throttle, or flight stick than on
+their own two feet.
+Aces add +2 to Boating, Driving, and Piloting rolls. In
+addition, they may also spend Bennies to make Soak rolls for
+any vehicle or vessel they control. This is a Boating, Driving,
+or Piloting roll at –2 (cancelling their usual +2). Each success
+and raise negates a wound and any critical hit that would
+have resulted from it.",,
+Acrobat,Professional,Agility d8;Strength d6,"Those who have formal training in the acrobatic arts or are
+naturally agile may take this Edge. It adds +2 to all Agility
+rolls made to perform acrobatic maneuvers (including Trick
+maneuvers), and also adds +1 to a character’s Parry as long
+as he has no encumbrance penalty.",,
+Adept,Professional,Arcane Background (Miracles);Faith d8;Fighting d8,"Adepts are holy warriors who have trained themselves to be living weapons. Some do so to be ultimate warriors; others
+do it in the service of a cause or deity.
+Their unarmed attacks do Str+d4 damage, and they are
+always considered armed for purposes of the Unarmed
+Defender rule.
+In addition, upon taking this Edge and at each new Rank,
+they may choose to change the trappings of one of the
+following powers to work only on themselves but be activated
+as a free action: boost/lower trait, deflection, healing, smite, or
+speed. The Adept must have the power to begin with, and this
+does not allow him to activate more than one power in a round.",,
+Assassin,Professional,Agility d8;Climbing d6;Fighting d6;Stealth d8,"Assassins are trained killers who know how to kill with deadly
+precision — if they can properly approach their prey. Assassins
+add +2 to any damage roll where they strike a foe unawares
+(even with ranged attacks).",,
+Bard,Professional,Charismatic;Persuasion d8;Knowledge (Bardic Lore) d6,"You are a talented musician and entertainer. You gain the Command Edge, representing your ability to inspire people with your songs - you must sing or play an instrument in order to use Command, but the benefits applies to all allies within range, rather than just subordinates. The same trapping extends to any other Leadership Edges you take. If you take Tactician, replace Knowledge (Battle) with Knowledge (Bardic Lore).
+  If you wish to take Jack-of-all-Trades, you may ignore the Smarts requirement. If you wish to take Attractive and Very Attractive during play, you can have it represent the attraction of your growing celebrity status.",Command,
+Bounty Hunter,Professional,Investigation d6;Streetwise d6;Fighting d8 or Shooting d8 or Throwing d8,"You've had plenty of practice finding and capturing wanted criminals. You can choose to inflict nonlethal damage without incurring any additional penalties to your attack rolls, as long as you have at least d8 in the associated combat skill. You must still declare your intent to inflict nonlethal damage before making your attack roll. You also gain a +2 bonus to Investigation and Streetwise rolls related to discovering information about criminals.",,
+Champion,Professional,Arcane Background (Miracles);Spirit d8;Strength d6;Vigor d8;Faith d6;Fighting d8,"Champions are holy (or unholy) men and
+women chosen to fight for a particular
+deity or religion. Most are pious souls
+ready and willing to lay down their
+lives for a greater cause, but some
+may have been born into the role
+and follow their path with some
+reluctance.
+Champions fight the
+forces of darkness (or
+good). They add +2
+damage when attacking
+supernaturally evil (or
+good) creatures, and
+have +2 Toughness
+when suffering damage
+from supernaturally
+evil (or good) sources,
+including arcane powers
+and the weapons, claws, teeth, etc.,
+of such creatures.",,
+Favoured Enemy,Professional,Smarts d8,"You've made a career out of studying and hunting a certain type of creature. You gain a +2 bonus to all Taunt, Investigation and Knowledge rolls (including Common Knowledge) against or related to one type of creature, such as humans, robots, Frames, etc, chosen when this Edge is taken. You also halve the penalties for making called shots against your favoured enemy.
+",,
+Gadgeteer,Professional,Arcane Background (Weird Science);Smarts d8;Repair d8;Weird Science d8;Two knowledges at d6,"These mechanical gurus are so
+technically savvy they can quickly build
+a machine to handle nearly any situation.
+Once per game session, a gadgeteer can create a “juryrigged”
+device from spare parts. The device functions just like
+any other Weird Science device, and uses any power available to Weird Scientists in that setting (though this is still subject
+to Rank restrictions). It has half the inventor’s Power Points,
+and once these are used up, the gadget burns out and does
+not recharge. The inventor must have access to some parts
+and a reasonable amount of time (GM’s call, but at least 1d20
+minutes) to create the gizmo.",,
+Holy/Unholy Warrior,Professional,Arcane Background (Miracles);Spirit d8;Faith d6,"Acolytes, clerics, paladins, holy slayers, and other avatars of
+the gods are frequently tasked with battling the forces of evil
+in the mortal world. This Edge gives them a slight advantage
+against such foes.
+As an action, a priest or other holy person may call upon
+his chosen deity to repulse supernaturally evil creatures,
+such as the undead, demons, and the like. It also works on
+evil characters with the Arcane Background (Miracles) Edge.
+Repulsing evil costs 1 Power Point and has a range of
+the character’s Spirit. Targeted creatures within that range
+must make a Spirit roll. Failure means the creature is
+Shaken; a 1 means it is destroyed. Wild
+Cards suffer an automatic Wound
+instead.
+A character may also be an Unholy
+Warrior working for the forces of
+evil. In this case, he repulses
+good creatures, such as angels,
+paladins, or good characters
+with Arcane Background
+(Miracles).",,
+Investigator,Professional,Smarts d8;Investigation d8;Streetwise d8,"Investigators have spent a great deal of time
+researching ancient legends, working
+the streets, or deducing devilish
+mysteries. Some of these heroes
+are actual Private Investigators
+for hire while others may be
+sleuthing mages in a fantasy
+world or perhaps inquisitive
+college professors stumbling
+upon Things Man Was Not
+Meant to Know in the dark of
+night. Investigators add +2 to
+Investigation and Streetwise rolls, as
+well as Notice rolls made to search through
+evidence.",,
+Jack-of-All-Trades,Professional,Smarts d10,"Through advanced schooling, book-learning,
+computer-enhanced skill programs, or just
+amazing intuitive perception, your hero has
+a talent for picking up skills on the fly. There
+is little he can’t figure out given a little time
+and a dash of luck. Anytime he makes an unskilled roll for a Smarts-based skill, he may do so at a d4 instead of a d4 - 2.",,
+McGyver,Professional,Smarts d6;Repair d6;Notice d8,"This character can improvise something when the need for
+a tool arises. He suffers no negative penalties on Trait rolls
+for lack of equipment in most situations.
+In addition, given a few simple tools, props, or devices, he
+can generally rig devices to help escape from death-traps,
+weapons to match some bizarre need, or otherwise create
+something that’s needed when such a thing isn’t actually
+present. The extent of this is completely up to the Game
+Master, but creativity should be rewarded, particularly in dire
+situations where few other answers are possible.",,
+Mentalist,Professional,Arcane Background (Psionics);Smarts d8;Psionics d6,"Mentalists are masters of mind control and psionics. Some
+are pulp heroes, others are trained in secret government
+academies to root out traitors. Their frequent toying with
+human minds gives them a +2 on any opposed Psionics roll,
+whether they are using their powers against a foe or are trying
+to defend against a rival Mentalist.",,
+Mr. Fix It,Professional,Arcane Background (Weird Science);Smarts d10;Repair d8;Weird Science d8;Two knowledge skills at d8,"The inventor adds +2 to Repair rolls. With a raise, he halves
+the time normally required to fix something. This means that
+if a particular Repair job already states that a raise repairs it
+in half the time, a Mr. Fix It could finish the job in one-quarter
+the time with a raise.",,
+Scholar,Professional,Skill of Choice d8;Skill of Choice d8,"Learned professors, devoted students, and amateur
+enthusiasts spend months of their lives studying particular
+subjects. They become experts in these fields, and rarely
+fail to answer questions in their particular area of expertise.
+Pick any two Knowledge skills the Scholar has a d8 or
+better in. Add +2 to your total whenever these skills are used.
+Those who study military history have a natural edge when
+commanding troops in Mass Battles (see page 92)—a +2 to
+a Knowledge (Battle) roll can mean the difference between
+a rousing victory and a crushing defeat.",,
+Thief,Professional,Agility d8;Climbing d6;Lockpicking d6;Stealth d8,"Thieves specialize in deceit, treachery, and acrobatics. They
+can be invaluable where traps must be detected, walls must
+be climbed, and locks must be picked.
+Thieves add +2 to Climbing, Lockpick, Stealth, as well as
+Notice or Repair rolls that relate to traps and similar devices.
+The bonus to Stealth does not apply when the character is in
+a wilderness environment—only in urban areas.",,
+Wizard,Professional,Arcane Background (Magic);Smarts d8;Knowledge (Arcana) d8; Spellcasting d6,"Wizards range from young apprentices to frighteningly
+powerful supreme sorcerers. They are often physically weak,
+however, and rarely have the divine powers or healing abilities
+of priestly spellcasters. What they lack in spiritual favor,
+however, they more than make up for in utility and eldritch
+might.
+Wizards tend to learn their craft in formalized institutions
+or under the tutelage of experienced masters. Each raise a
+Wizard gets on his Spellcasting roll reduces the cost of the
+spell by 1 Power Point. The Wizard must have the points
+available to cast the spell in the first place before rolling.",,
+Woodsman,Professional,Spirit d6;Survival d8;Tracking d8,"Woodsmen are rangers, scouts, and hunters who are more
+at home in the wilderness than in urban areas. They are skilled
+trackers and scouts, and know how to live off the land for
+months at a time. Woodsmen gain +2 to Tracking, Survival,
+and Stealth rolls made in the wilderness (not towns, ruins, or
+underground).",,
+Charismatic,Social,Spirit d8,"Your hero has learned how to work with others, even those
+who might be somewhat opposed to him or his efforts. This
+adds +2 to his Charisma.",Charisma +2,
+Common Bond,Social,Spirit d8,"This Edge signifies a special link between close companions—
+such as a typical party. It doesn’t matter whether or not the
+characters get along perfectly or not, they’ve just formed a
+close and common bond during their epic adventures.
+A character with this Edge may freely give his Bennies to any
+other Wild Card he can communicate with. This represents
+the character giving his verbal or spiritual support to the ally.
+The player should say what his character is doing to give
+the support. The gesture could be as complex as a rousing
+speech, or as simple as a knowing nod.",,
+Connections,Social,,TO FILL IN! SPECIAL!,,
+Strong Willed,Social,Intimidation d6;Taunt d6,"Characters with strong willpower use their voice, steely
+stares, or quick wits to unnerve their opponents. Strong Willed
+adds +2 to a character’s Intimidation and Taunt rolls, as well as
+his Spirit and Smarts rolls when resisting Test of Wills attacks.",,
+Beast Bond,Weird,,"Some individuals can exert incredible will over their animal
+companions. These characters may spend their own Bennies
+for any animals under their control, including mounts, pet
+dogs, familiars, and so on.",,
+Beast Master,Weird,Spirit d8,"Animals like your hero, and won’t attack him unless he
+attacks them first or they are enraged for some reason. His
+“animal magnetism” is so great he’s attracted a loyal animal
+of some sort as well. This is typically a dog, wolf, or raptor,
+though the GM may allow other companions if it fits the setting.
+The beast is an Extra (not a Wild Card). If it should be killed,
+the hero finds a replacement in 2d6 days.",,
+Danger Sense,Weird,,"Your hero can sense when something bad is about to
+happen. Anytime he’s about to be the victim of a surprise
+attack, ambush, or other nasty surprise, he gets a Notice roll
+at –2 just before the attack or event occurs. If successful,
+the character knows something is about to happen and may
+take appropriate action against it. This means the hero is on
+Hold for the first round of a combat. Should the hero fail his
+roll, he still follows the normal Surprise rules, if applicable
+(see page 65).",,
+Healer,Weird,Spirit d8,"A hero with this Edge adds +2 to all Healing rolls (including
+natural healing rolls for his own wounds), whether natural
+or magical in nature. Up to five companions traveling with a
+Healer add the bonus to their natural healing rolls as well.",,
+Liquid Courage,Weird,Vigor d8,"Your hero processes alcohol far differently than most. The
+round after consuming a stiff drink (at least 8 ounces of hard
+liquor or equivalent), the character’s Vigor increases by one
+die type (increasing Toughness as well). The hard drinker can
+also ignore one level of wound modifiers (which stacks with
+other abilities that do the same).
+The effect lasts for one hour after it begins. If the drunkard
+seeks inebriation he suffers –2 to Smarts and Agility-based
+rolls for as long as he continues to drink and the next 1d6
+hours thereafter.",,
+Scavenger,Weird,Luck,"Once per session the hero may “suddenly remember” that
+he has a much-needed piece of equipment on his person. The
+item must be capable of being stored in the hero’s pocket or
+bag (assuming he has one), and the Game Master has the
+final word on what can be found.",,
+Dead Shot,Wild Card,Seasoned;Shooting d10 or Throwing d10,"The character doubles his total damage when making a
+successful Shooting or Throwing attack this round.",,
+Mighty Blow,Wild Card,Seasoned;Fighting d10,"The character doubles his total damage when making a
+successful Fighting attack this round.",,
+Power Surge,Wild Card,Seasoned;Arcane Skill d10,"This Edge is for those characters with Arcane Backgrounds.
+When dealt a Joker, the character recovers 2d6 Power Points.
+He may not exceed his usual limit.",,
